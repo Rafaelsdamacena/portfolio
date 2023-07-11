@@ -7,7 +7,6 @@
 }
 
 nav {
-
     text-align: right;
 }
 
@@ -66,15 +65,13 @@ a {
     padding-left: 30px;
 }
 
-
-
-h1{
+.nome{
     font-size: 40px;
     color: red; /*trocar para a mesma cor do botão*/
     text-shadow: 1.5px 1.5px 0px #000;
 }
 
-h2{ 
+.subtitulo{ 
     font-size: 30px;
     color: white; /*mudar cor depois de escolher a paleta*/
     text-shadow: 1.2px 1.2px 0px #000;
@@ -88,9 +85,21 @@ h2{
     padding: 40px;
 }   
 
-.box h1 {
+.box .nome {
     margin-bottom: 20px;
 
+}
+
+.section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: blue;
+}
+
+.title{
+    font-size: 30px;
+    color: black; 
+    text-align: center;
 }
 
 
