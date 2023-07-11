@@ -36,4 +36,30 @@ a {
     transform: scale(1.05);
 }
 
+h1{
+    font-size: 40px;
+    color: red; /*trocar para a mesma cor do botão*/
+    text-shadow: 1.5px 1.5px 0px #000;
+}
+
+h2{ 
+    font-size: 30px;
+    color: white; /*mudar cor depois de escolher a paleta*/
+    text-shadow: 1.2px 1.2px 0px #000;
+}
+
+#box{
+    display: inline-block;
+    background-color: burlywood; /*mudar a cor*/
+    box-shadow: 8px 8px 0px #000;
+    text-align: center;
+    padding: 40px;
+}   
+
+#box h1 {
+    margin-bottom: 20px;
+
+}
+
+
 
