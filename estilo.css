@@ -1,13 +1,14 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #002333;
     padding: 10px 20px;
     color: #fff;
 }
 
-.header p{
-   /* font-size: 30px;*/
+.header h1{
+    text-shadow: 2px 2px 0 #000;
 }
 
 .menu {
@@ -53,7 +54,7 @@
 }
 
 .texto{
-    padding-top: 50px;
+    padding-top: 20px;
     color: #fff;
     text-shadow: 1px 1px 0 #000;
     font-size: 20px;
@@ -78,20 +79,27 @@
     text-align: center;
     font-size: 21px;
 }
-
-.sobre{
-    background-color: #deefe7;
+.title{
+    margin-bottom: 40px;
+    color: #002333;
 }
 
 .skill{
+    background-color: #deefe7;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+
+.projetos{
     background-color: #fff;
 }
 
-.projetos{
-    background-color: #b4bec9;
-}
-
 .contatos{
-    background-color: #159a9c;
+    background-color: #b4bec9;
 }
 
