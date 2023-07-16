@@ -1,16 +1,21 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: blue; /*trocar cor*/
-    border-bottom: 5px solid #000;
+    background-color: #002333;
     padding: 10px 20px;
+    color: #fff;
 }
 
-nav {
+.header p{
+   /* font-size: 30px;*/
+}
+
+.menu {
     text-align: right;
 }
 
-a {
+
+.navegar {
     color: #fff;
     font-size: 20px;
     /*font-family:*/
@@ -20,14 +25,18 @@ a {
 }
 
 .button {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
     display: inline-block;
-    background-color: red ; /*mudar depois */
+    background-color: #159a9c ; /*mudar depois */
     height: 60px;
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 2px 2px 0 #000;
     transition: transform 150ms linear;
+    border-radius: 10px;
     
 }
 
@@ -35,72 +44,37 @@ a {
     transform: scale(1.05);
 }
 
-.banner{ /*criar o banner*/
-    box-sizing: border-box;
-    background-color: gray;
-    /*background-repeat: no-repeat;
-    background-size: 100%;  usar essas tags quando banner criado */
-    height: 500px;
-    border-bottom: 5px solid #000;
-    padding-top: 115px;
-    padding-left: 98px;
-
-}
-
-.banner .posicionamento{
+.banner{
     display: flex;
-    flex-direction: column;
-    width: 400px;
-    
-}
-
-.banner .box{
-    margin-bottom: 40px;
-    
-}
-
-.banner .navegacao {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 30px;
-}
-
-.nome{
-    font-size: 40px;
-    color: red; /*trocar para a mesma cor do botão*/
-    text-shadow: 1.5px 1.5px 0px #000;
-}
-
-.subtitulo{ 
-    font-size: 30px;
-    color: white; /*mudar cor depois de escolher a paleta*/
-    text-shadow: 1.2px 1.2px 0px #000;
-}
-
-.box{
-    display: inline-block;
-    background-color: burlywood; /*mudar a cor*/
-    box-shadow: 8px 8px 0px #000;
-    text-align: center;
-    padding: 40px;
-}   
-
-.box .nome {
-    margin-bottom: 20px;
+    justify-content: space-evenly;
+    padding: 180px 60px 100px 60px;
+    background-color: #002333;
 
 }
 
-.section{
+.texto{
     padding-top: 50px;
-    padding-bottom: 100px;
-    background-color: blue;
-}
-
-.title{
-    font-size: 30px;
-    color: black; 
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 20px;
     text-align: center;
 }
 
 
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    
+}
 
+
+.banner img{
+    height: 300px;
+    box-shadow: 2px 2px 0 #000;
+}
+
+.container{
+    padding: 60px 60px 20px 60px;
+    text-align: center;
+    font-size: 21px;
+}
