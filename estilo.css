@@ -75,11 +75,13 @@
 }
 
 .container{
-    padding: 60px 60px 100px 60px;
+    padding: 60px 60px 70px 60px;
 }
 .title{
     margin-bottom: 60px;
     color: #002333;
+    text-align: center;
+    font-size: 40px;
 }
 
 .skill{
@@ -145,6 +147,7 @@
     text-shadow: 1px 1px 0 #000;
     text-align: left;
 
+
 }
 .cursos{
     background-color: #002333;
@@ -155,4 +158,8 @@
     height: 30px;
     margin: 10px;
 
+}
+
+.contato{
+    margin-top: 40px;
 }
