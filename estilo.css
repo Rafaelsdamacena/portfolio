@@ -76,8 +76,6 @@
 
 .container{
     padding: 60px 60px 100px 60px;
-    text-align: center;
-    font-size: 21px;
 }
 .title{
     margin-bottom: 60px;
@@ -97,6 +95,8 @@
 
 .projetos{
     background-color: #fff;
+    text-align: center;
+    font-size: 21px;
 }
 
 .card{
@@ -137,12 +137,22 @@
     transform: rotate(180deg) translateX(12px);
 }*/
 
-.contatos{
-    background-color: #b4bec9;
-}
 
-.footer{
+
+.end{
     background-color: #002333;
-    max-height: 100px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+    text-align: left;
+
+}
+.cursos{
+    background-color: #002333;
 }
 
+
+.end img{
+    height: 30px;
+    margin: 10px;
+
+}
