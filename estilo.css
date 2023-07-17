@@ -80,7 +80,7 @@
     font-size: 21px;
 }
 .title{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     color: #002333;
 }
 
@@ -99,7 +99,17 @@
     background-color: #fff;
 }
 
-.button-arrow{
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card img{
+    height: 120px;
+    cursor: pointer;
+}
+
+/*.button-arrow{
     width: 50px;
     height: 50px;
     background-color: #002333;
@@ -125,10 +135,14 @@
 
 .button-arrow.-left::before{
     transform: rotate(180deg) translateX(12px);
-}
+}*/
 
 .contatos{
     background-color: #b4bec9;
 }
 
+.footer{
+    background-color: #002333;
+    max-height: 100px;
+}
 
