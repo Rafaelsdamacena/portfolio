@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -7,7 +12,7 @@
     color: #fff;
 }
 
-.header h1{
+.header h1 {
     text-shadow: 2px 2px 0 #000;
 }
 
@@ -30,7 +35,8 @@
     font-size: 20px;
     color: #fff;
     display: inline-block;
-    background-color: #159a9c ; /*mudar depois */
+    background-color: #159a9c;
+    /*mudar depois */
     height: 60px;
     line-height: 60px;
     padding-left: 20px;
@@ -38,14 +44,14 @@
     box-shadow: 2px 2px 0 #000;
     transition: transform 150ms linear;
     border-radius: 10px;
-    
+
 }
 
-.button:hover{
+.button:hover {
     transform: scale(1.05);
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-evenly;
     padding: 180px 60px 100px 60px;
@@ -53,7 +59,7 @@
 
 }
 
-.texto{
+.texto {
     padding-top: 20px;
     color: #fff;
     text-shadow: 1px 1px 0 #000;
@@ -62,29 +68,30 @@
 }
 
 
-.banner h1{
+.banner h1 {
     color: #fff;
     font-size: 50px;
-    
+
 }
 
 
-.banner img{
+.banner img {
     height: 300px;
     box-shadow: 2px 2px 0 #000;
 }
 
-.container{
+.container {
     padding: 60px 60px 70px 60px;
 }
-.title{
+
+.title {
     margin-bottom: 60px;
     color: #002333;
     text-align: center;
     font-size: 40px;
 }
 
-.skill{
+.skill {
     background-color: #deefe7;
 }
 
@@ -95,18 +102,18 @@
 }
 
 
-.projetos{
+.projetos {
     background-color: #fff;
     text-align: center;
     font-size: 21px;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: space-around;
 }
 
-.card img{
+.card img {
     height: 120px;
     cursor: pointer;
 }
@@ -141,7 +148,7 @@
 
 
 
-.end{
+.end {
     background-color: #002333;
     color: #fff;
     text-shadow: 1px 1px 0 #000;
@@ -149,17 +156,18 @@
 
 
 }
-.cursos{
+
+.cursos {
     background-color: #002333;
 }
 
 
-.end img{
+.end img {
     height: 30px;
     margin: 10px;
 
 }
 
-.contato{
+.contato {
     margin-top: 40px;
 }
