@@ -16,9 +16,14 @@ body {
 
 .header .title h1 {
     font-size: 40px;
-    text-shadow: 2px 2px 2px white;
 }
 
 .header .menu a {
     margin-left: 15px;
+}
+
+.container .banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
