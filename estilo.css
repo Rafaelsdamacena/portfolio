@@ -7,3 +7,17 @@ body {
 .container {
     margin: 80px 100px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.header .title h1 {
+    font-size: 40px;
+}
+
+.header .menu a {
+    margin-left: 15px;
+}
