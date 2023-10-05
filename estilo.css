@@ -17,10 +17,12 @@ body {
 
 .header .title h1 {
     font-size: 40px;
+    cursor: pointer;
 }
 
 .header .menu a {
     margin-left: 15px;
+    transition: link 0.5s ease;
 }
 
 .container .banner {
@@ -39,9 +41,27 @@ body {
     background-color: blueviolet;
     color: white;
     padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 7px 7px 1px rgb(64, 255, 16);
+    transition: background-color 0.5s ease;
+}
+
+.container .banner .text-banner .btn:hover {
+    padding: 15px 25px;
+    font-size: 30px;
+    background-color: rgb(255, 24, 178);
+    box-shadow: 7px 7px 1px aqua;
 }
 
 .container .banner .img {
-    box-shadow: 7px 7px 1px rgb(47, 240, 198);
+    box-shadow: 7px 7px 1px aqua;
     cursor: pointer;
+    width: 350px;
+    transition: img 0.5s ease;
+}
+
+.container .banner .img:hover {
+    box-shadow: 7px 7px 1px rgb(255, 24, 178);
+    cursor: pointer;
+    width: 400px;
 }
