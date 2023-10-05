@@ -33,3 +33,10 @@ body {
     text-align: center;
     font-size: 25px;
 }
+
+.container .banner .text-banner .btn {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+}
