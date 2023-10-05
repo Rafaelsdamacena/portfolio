@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-    margin: 80px 100px;
+    margin: 100px 100px;
+    padding-top: 50px;
 }
 
 .header {
@@ -26,4 +27,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.container .banner .text-banner {
+    text-align: center;
+    font-size: 25px;
 }
