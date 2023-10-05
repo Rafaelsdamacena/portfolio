@@ -40,3 +40,8 @@ body {
     color: white;
     padding: 10px 20px;
 }
+
+.container .banner .img {
+    box-shadow: 7px 7px 1px rgb(47, 240, 198);
+    cursor: pointer;
+}
