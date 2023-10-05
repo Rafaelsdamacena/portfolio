@@ -37,8 +37,7 @@ body {
 }
 
 .icon:hover {
-    width: 30px;
-    transition: icon 0.5s ease;
+    width: 50px;
 }
 
 .container .banner {
@@ -51,6 +50,11 @@ body {
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    transition: text 0.5s ease;
+}
+
+.container .banner .text-banner:hover {
+    font-size: 27px;
 }
 
 .container .banner .text-banner .btn {
@@ -80,5 +84,5 @@ body {
 .container .banner .img:hover {
     box-shadow: 7px 7px 1px blueviolet;
     cursor: pointer;
-    width: 400px;
+    width: 370px;
 }
