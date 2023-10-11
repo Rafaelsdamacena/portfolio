@@ -98,3 +98,14 @@ body {
 .subtitle:hover {
     font-size: 45px;
 }
+
+.img-grade {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 70px;
+}
+
+.img-grade-item {
+    cursor: pointer;
+    text-align: center;
+}
