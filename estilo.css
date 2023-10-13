@@ -125,3 +125,19 @@ body {
 .sub-icon:hover {
     width: 130px;
 }
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    padding: 3px;
+}
+
+.footer p {
+    font-size: 20px;
+    cursor: pointer;
+    transition: p 0.5s ease;
+}
+
+.footer p:hover {
+    font-size: 25px;
+}
